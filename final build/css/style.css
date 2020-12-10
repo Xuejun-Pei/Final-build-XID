@@ -22,6 +22,7 @@ body{
 
 .text1{
 	color: white;
+	font-size: 18px;
 	text-align: center;
 	margin: 100px;
 
@@ -110,7 +111,7 @@ a{
 .wavy{
 	position:relative;
 	text-align: center;
-	
+
 	-webkit-box-reflect:below -18px linear-gradient(transparent,rgba(0,0,0,0.2));
 }
 .wavy span{
@@ -119,6 +120,7 @@ a{
 	color:#fff;
 	font-size:18px;
 	animation:animate 1s ease-in-out infinite;
+	animation-delay: calc(0.05s * var(--i));
 }
 
 @keyframes animate{
