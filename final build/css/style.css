@@ -45,6 +45,12 @@ body{
 	}
 }
 
+*{
+	margin=0;
+	padding=0;
+	font-family: "montserrat";
+
+}
 
 
 .container{
@@ -69,6 +75,15 @@ body{
 
 .btn:hover{
 	color:#fff;
+}
+
+
+a{
+	text-shadow: grey;
+	color:white;
+	text-decoration-color: white;
+	font-family: "montserrat";
+
 }
 
 
