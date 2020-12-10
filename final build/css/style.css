@@ -16,6 +16,7 @@ body{
 	
 	margin: 300px 0;
 	font-size: 36px;
+	transition: 1s;
 
 }
 
@@ -58,19 +59,22 @@ body{
 	font-size: 20px;
 	font-family: "montserrat";
 	cursor: pointer;
-	
-	transition: 0.8s;
-
-}
-
-.btn{
 	color: white;
+	transition: 1s;
+	position:relative;
+	overflow:hidden;
+	text-decoration-line: none;
 
 }
 
-.btn-hover{
+.btn:hover{
 	color:#fff;
 }
 
-.btn.before
+
+
+
+
+
+
 
