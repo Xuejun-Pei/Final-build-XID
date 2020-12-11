@@ -70,6 +70,7 @@ body{
 	display: inline-block;
 	background:rgba(225,225,225,0.7);
 	color:black;
+	font-size:14px;
 	width:100px;
 	height: 35px;
 	border-radius: 24px;
@@ -82,19 +83,16 @@ body{
 	outline:none;
 	cursor: pointer;
 	box-shadow: 0 10px 10px rgba(0,0,0,.3);
-	transition: 0.8s;
+	transition: 0.5s;
 
 
 }
 
 .btn:hover{
 	color:#fff;
-	background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+	background: linear-gradient(90deg, rgba(0,0,0,0.7),rgba(0,0,0,0.4),rgba(225,225,225,0.1) );
 	background-size:400%;
-	transform: translateY(-15px);
-
-
-	animation: bganimation 8s infinite;
+	animation: bganimation 1.8s infinite;
 
 }
 
