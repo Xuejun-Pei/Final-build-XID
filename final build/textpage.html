@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>TEXT</title>
+    <link
+        rel="stylesheet"
+        href="css/textstyle.css"
+    >
+</head>
+
+<body>
+    <section>
+        <img
+            src="bg.jpg"
+            id="bg"
+        >
+        <img
+            src="moon.png"
+            id="moon"
+        >
+        <img
+            src="mountain.png"
+            id="mountain"
+        >
+        <img
+            src="road.png"
+            id="road"
+            road
+        >
+        <h2 id="text">
+            A WALK IN THE FOREST 
+        </h2>
+    </section>
+    <script>
+        let bg = document.querySelector('#bg')
+        let moon = document.querySelector('#moon')
+        let mountain = document.querySelector('#mountain')
+        let road = document.querySelector('#road')
+        let text = document.querySelector('#text')
+
+        window.addEventListener('scroll', () => {
+            var value = window.scrollY;
+
+            bg.style.top = value * 0.5 + 'px';
+            moon.style.left = -value * 0.5 + 'px';
+            mountain.style.top = -value * 0.15 + 'px';
+            road.style.top = value * 0.15 + 'px';
+
+            text.style.top = value * 1 + 'px';
+
+
+        })
+    </script>
+
+
+
+
+
+    <p id="img1" class="img">IN THE EARLY 1940s, while embroiled in the Second World War, the government of Prime Minister William Lyon Mackenzie King faced a PR problem back home: injured soldiers were being sent to a Toronto cash-register factory that had been hastily converted to house the wounded. Torch, a newspaper for veterans, heaped scorn on what it called the “chief orthopaedic military hospital in Canada.” It described “ramshackle, inflammable additions” and observed that the vets lacked adequate light or recreational areas. The Canadian government had asked the City of Toronto for land to erect a new facility. Milton Gregg, minister of veterans’ affairs, called for “rural surroundings (that) can have a beneficial effect upon morale.” In 1948, Mackenzie King opened Sunnybrook Hospital, then the largest hospital in Canada, on a forested plateau north of downtown. Sunnybrook’s principal architect, Hugh L. Allward, noted that “a clear-running stream adds charm to a broad valley available to patients and their friends.” The founders of Sunnybrook recognized something ancient and intuitive: the healing power of forests.
+
+    Seventy years on, a quest for bigger and better buildings (and more parking) has driven Sunnybrook’s patients and staff further and further from nature. But, even as Sunnybrook pushes green space to its margins, researchers elsewhere have proven the value of therapeutic landscapes. Clinical trials show that time spent in the forest can boost white blood cells, which can attack tumours, improve cardiovascular health, reduce stress, and lift depression. The Japanese call this shinrin-yoku, or forest bathing. In Canada, during a typical forest bath, participants stroll through groves and sometimes lean against trees. They feel rocks and smell soil. They lie down on carpets of pine needles. It sounds like a hippie fad—but it might also be a simple, low-cost way to address some of the challenges facing our health care system.
+
+    Although Western medicine has succeeded in limiting communicable diseases and extending life expectancy, increasing rates of depression and other mental illnesses suggest that, in the developed world, well-being is on the decline. In Canada, three in five people over twenty now live with chronic, noncommunicable diseases. As hospitals overflow and “hallway medicine” persists, contact with nature may be one of our oldest and least-appreciated treatments.
+    </p>
+        <p id="content1">THE NATURE CURE dates back centuries. European monasteries in the eleventh through fourteenth centuries featured therapeutic gardens, where monks grew food and medicinal plants. Henry David Thoreau, in his essay “Walking,” published in 1862 in The Atlantic, said he required four hours a day sauntering through the woods and fields to preserve his health. People in Victorian England, including Florence Nightingale, the founder of modern nursing, believed that miasma, or bad air, caused disease; the cure was clean air.
+
+        While medicine has made enormous advances, research suggests nature therapy still has value. Between 1972 and 1981, researchers studied thirty women and sixteen men recovering from gall-bladder surgery in a suburban hospital in Pennsylvania. Half the patients looked out at leafy trees; the other half saw a brick wall. Patients with the tree view recovered more quickly and required fewer drugs. In 2012, scientists from the University of Michigan, Stanford University, and Baycrest Health Sciences Centre in Toronto asked twenty people diagnosed with major depressive disorder to recall a negative memory. The study group was then asked to walk through downtown Ann Arbor, Michigan, and to visit a local arboretum during a separate session. Subjects returning from the forest showed mood improvements compared with results after the urban walk.
+
+        In his 2018 book, Forest Bathing, Qing Li posits that a walk in the woods—often in groves of towering Japanese hinoki cypress—can also reduce blood pressure, lower blood-sugar levels, improve concentration, improve energy, boost the immune system, and increase anticancer protein production. One reason may be due to oils called phytoncides, which trees produce to protect themselves from bacteria, insects, and fungi. When Li incubated natural killer cells (white blood cells in our bodies that attack unwanted cells) with phytoncides from the trees, he found an increased presence of anticancer proteins.
+        </p>
+        <p id="img2" class="img">The touted physical- and mental-health benefits of forest bathing have led to a nascent industry. Forest bathing arrived in Canada in 2015 and has grown quickly: today, this country counts at least fifty forest-therapy guides. Ronda and Gary Murdock live in Parksville, BC, about 150 kilometres north of Victoria. Ronda grew up in the forest, and Gary is a retired forest technician. Giant, centuries-old Douglas firs and western red cedars and a soft, needle-covered forest floor offer the perfect environment for a forest bath not far from their house.
+
+        Although the Murdocks have led nature hikes since 1999, it has only been in the past two or three years that a market has grown for forest bathing—a different experience from strenuous trails. “It’s about assisting people to slow down and use their senses to connect with the forest,” Ronda says. “When we are in a meditative state, we benefit in a different way than when we are on a hike or a jog.” Ronda invites participants to “shake off the road dust,” take off their shoes, close their eyes, and pay attention to sounds and smells. Some of her customers are grieving or fighting heart disease.
+        
+        In Atlanta, Georgia, a hospital has recently begun offering forest bathing to its cancer patients in the woods of the fifty-one-hectare Chattahoochee Nature Center. Other patients act on their own initiative. In the summer of 2017, doctors diagnosed Robyn King Edgar, a mother of two from Okotoks, south of Calgary, with stage-four cancer, which gave her a 22 percent chance of living five years. To reduce stress and improve her health, King Edgar sold her dance studio and swore off dairy, sugar, and red meat. She also joined a three-day forest-bathing retreat in the pine forests of the Rockies near Golden, BC. When she returned, King Edgar says her white blood cell count had nearly tripled. “I can’t say with certainty that forest bathing made my counts go up,” King Edgar says. “My doctor says it’s not consistent enough. I’d really love to see some more research on the benefits that forest bathing is having on my natural killer cells.”
+</p>
+        <p id="content2">Forest therapy also raises questions of accessibility. On Vancouver Island, many of the Murdocks’ forest-bathing clients are guests at the Tigh-Na-Mara Seaside Spa Resort and Conference Centre, where a two-night “reconnect” package in a spa bungalow with a forest view includes two hours of forest bathing and costs $650; King Edgar’s forest-bathing weekend cost about $500.
+
+        But forest bathing is not only a recent fad for the wealthy. The use of forests to heal the sick is second nature to Canada’s First Nations. Shelley Charles is Ojibwe Anishinaabe, raised by her grandmother in the forests of Ontario’s Bruce Peninsula. Charles learned to make balms from balsam fir and spruce gum boiled with bear grease and to get vitamin C from cedar, pine, spruce, and balsam.
+
+        oday, Charles is dean of Indigenous education and engagement at Humber College, the north campus of which backs onto a forest along the Humber River in Toronto. Charles, with students and staff, plants native species of trees and plants in spring and uses the forest to teach her students about the power of trees as healers. “It contributes to our overall physical and spiritual health, having a place where we can walk right down to the river and be immersed in a natural setting,” she says. But when Charles asked staff who signed up for her workshop to meet her at the nearby Humber Arboretum, no one could find it. The forest does not appear on the Humber College map.
+</p>
+        <p id="img3" class="img">DESPITE MORE INTEREST in the restorative effects of forests, fresh air has fallen out of fashion in North American hospitals. One hot day in late July at Sunnybrook, I met Antonio Pergola, who had pushed his ailing mother, Giuseppina, in her wheelchair, into the shade of an Austrian pine tree looking out at a forested ravine. “This is where she likes to go,” explained Antonio. “It reminds her of the village where she grew up, outside Napoli.”
+
+        A sign stuck into the lawn nearby announced that this shady spot is soon to disappear. The city has granted Sunnybrook permission to cut down this pine and twenty-two other mature trees to build its new Brain Sciences Facility. When the hospital opened, 12 percent of its grounds were paved; hard surface now covers 52 percent, much of it for parking.
+
+        Sunnybrook has shown some commitment to its woods. Last fall, it planted a new grove donated by the Canadian Medical Association Foundation, in partnership with Tree Canada. Trees, of course, are not a panacea for the complex illnesses doctors are now able to treat. But amid sprawling facilities and overcrowded wards, Sunnybrook and other hospitals have a simple option proven to lower heart rates and blood pressure, reduce stress hormones, and boost immune systems: take patients for a walk in the woods.
+</p>
+        <p id="footer"><a href="home page.html">
+            go back
+        </a>
+        </p>
+
+
+</body>
+
+</html>
