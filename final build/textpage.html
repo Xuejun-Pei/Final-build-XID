@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>IS A WALK IN THE FOREST BETTER THAN A TRIP TO THE DOCTOR?</title>
+    <title>TEXT</title>
     <link
         rel="stylesheet"
         href="css/textstyle.css"
@@ -20,8 +20,8 @@
             id="moon"
         >
         <img
-            src="mountain.png"
-            id="mountain"
+            src="forest.png"
+            id="forest"
         >
         <img
             src="road.png"
@@ -35,7 +35,7 @@
     <script>
         let bg = document.querySelector('#bg')
         let moon = document.querySelector('#moon')
-        let mountain = document.querySelector('#mountain')
+        let mountain = document.querySelector('#forest')
         let road = document.querySelector('#road')
         let text = document.querySelector('#text')
 
@@ -44,7 +44,7 @@
 
             bg.style.top = value * 0.5 + 'px';
             moon.style.left = -value * 0.5 + 'px';
-            mountain.style.top = -value * 0.15 + 'px';
+            forest.style.top = -value * 0.15 + 'px';
             road.style.top = value * 0.15 + 'px';
 
             text.style.top = value * 1 + 'px';

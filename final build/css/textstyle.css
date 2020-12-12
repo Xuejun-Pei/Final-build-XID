@@ -16,6 +16,7 @@ section {
   align-items: center;
   font-size:10px;
   text-align: center;
+
 }
 section:before {
   content: '';
@@ -51,10 +52,13 @@ section img {
   color: #ffffff;
   font-size: 10em;
   z-index: 1;
+  margin-top: -80px;
 }
 #road {
   z-index: 2;
 }
+
+
 
 
 
