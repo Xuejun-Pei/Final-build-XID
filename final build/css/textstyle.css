@@ -62,6 +62,17 @@ section img {
 }
 
 
+a{
+    color:white;
+    font-size:16px;
+}
+
+a:hover{
+    font-size: 18px;
+
+}
+
+
 
 
 
